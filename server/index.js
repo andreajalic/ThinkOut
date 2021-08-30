@@ -15,7 +15,7 @@ mongoose.Promise = global.Promise;
 //mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true})
 mongoose.connect(
   "mongodb+srv://twitterAD:" +
-    process.env.SECRET +
+    "twitterADpass" +
     "@twitter-clone-nwt.rj5zf.mongodb.net/twitter-clone-nwt?retryWrites=true&w=majority",
 
   {
